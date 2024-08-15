@@ -1,9 +1,9 @@
 body {
-  font-family: "Noto Sans JP", Helvetica, 　arial, sans-serif;
+  font-family: "Noto Sans JP", Helvetica, arial, sans-serif;
   padding: 20px;
 }
 
-/* 
+/*
 form
  */
 .form {
@@ -15,7 +15,7 @@ form
 }
 .form-list {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .form-title {
   font-weight: bold;
@@ -23,12 +23,13 @@ form
   width: 30%;
 }
 .form-field {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #000;
+  width: 70%;
+}
+.form-button {
+  text-align: center;
 }
 
-/* 
+/*
 button
  */
 .button {
@@ -46,8 +47,8 @@ button
   opacity: 0.8;
 }
 
-/* 
- history-link 
+/*
+ history-link
  */
 .history-link {
   margin-top: 20px;
